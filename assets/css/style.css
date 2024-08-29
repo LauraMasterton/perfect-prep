@@ -1,0 +1,24 @@
+/* Reset browser defaults*/
+* {
+    padding: 0;
+    border: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* General page styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+header {
+    background-color: bisque;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%
+}
