@@ -43,13 +43,15 @@ nav {
     background-color: #222831;
     color: black;
 }
+
 /* Main */
 main {
-    background-color:chocolate;
+    background-color: chocolate;
+    flex: 1 0 auto;
 
 }
 
 /* Footer */
 footer {
-    background-color:burlywood;
+    background-color: burlywood;
 }
