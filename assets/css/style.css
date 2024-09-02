@@ -15,18 +15,18 @@ body {
     flex-direction: column;
     color: #222831;
     font-family: Roboto, 'sans-serif';
-
 }
 
 
 /* Header */
 
 header {
-    background-color: bisque;
-    padding: 0 1 rem;
+    background-color: #ffffff; border-bottom: 2px;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -34,16 +34,17 @@ header {
 
 header a {
     text-decoration: none;
-    color: cadetblue;
+    color: inherit;
 
 }
-
 
 /* Heading styles */
 
 h1 {
-    font-family: "archivo black", sans-serif;
-    font-weight: 700;
+    font-family: roboto, "sans-serif";
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+   
 }
 
 h2,
@@ -51,21 +52,51 @@ h3 {
     font-family: "Montserrat alternates", sans-serif;
 }
 
+#nav-links {
+    list-style-type: none;
+
+}
+
+#nav-links > li {
+    margin-bottom: 1rem;
+
+}
+
+/* Signifies the page the user is on */
+.active {
+    font-weight: 600;
+}
+
 nav {
     position: absolute;
-    padding: 1.5rem 2rem;
-    background-color: #222831;
-    color: black;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
     display: none;
     top: 100%;
 }
+
 #toggle:checked~nav {
     display: block;
 }
+
+#toggle {
+    display: none;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
 /* Main */
 main {
-    background-color: chocolate;
+    background-color: #f8f8f8;
     flex: 1 0 auto;
+    margin-top: 47px;
+    padding-top: 5px;
 
 }
 
