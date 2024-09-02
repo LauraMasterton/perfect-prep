@@ -18,15 +18,6 @@ body {
 
 }
 
-h1 {
-    font-family: "archivo black", sans-serif;
-    font-weight: 700;
-}
-
-h2,
-h3 {
-    font-family: "Montserrat alternates", sans-serif;
-}
 
 /* Header */
 
@@ -47,6 +38,19 @@ header a {
 
 }
 
+
+/* Heading styles */
+
+h1 {
+    font-family: "archivo black", sans-serif;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    font-family: "Montserrat alternates", sans-serif;
+}
+
 nav {
     position: absolute;
     padding: 1.5rem 2rem;
@@ -55,9 +59,9 @@ nav {
     display: none;
     top: 100%;
 }
-
-
-
+#toggle:checked~nav {
+    display: block;
+}
 /* Main */
 main {
     background-color: chocolate;
