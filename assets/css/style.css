@@ -21,7 +21,8 @@ body {
 /* Header */
 
 header {
-    background-color: #ffffff; border-bottom: 2px;
+    background-color: #ffffff;
+    border-bottom: 2px;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -45,13 +46,12 @@ h1 {
     font-family: roboto, "sans-serif";
     font-weight: 800;
     color: rgb(0, 0, 0);
-   
+
 }
 
-h2
-h3 {
+h2 h3 {
     font-family: "Montserrat alternates", sans-serif;
-   
+
 }
 
 #nav-links {
@@ -59,7 +59,7 @@ h3 {
 
 }
 
-#nav-links > li {
+#nav-links>li {
     margin-bottom: 1rem;
 
 }
@@ -103,21 +103,26 @@ main {
 
 }
 
-/* Hero section */ 
+/* Hero section */
 #hero-image {
-    height: 500px;
-    width: 100%;
-    background: url("../images/hero.webp") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.webp") no-repeat center center/cover;
+
 }
 
-#hero-text h2 {
-    background-color:#ffffff;
-    border-radius: 25px;
-   margin-left: 20px;
-   margin-right: 20px;
-   padding: 10px;
-   border-bottom: 200px;
- 
+#hero-text h2,h3 {
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-bottom: 200px;
+
 }
 
 
