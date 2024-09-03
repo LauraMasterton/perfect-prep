@@ -197,4 +197,6 @@ h3 {
     .nav-toggle {
         display: none;
     }
+
+    .container-grid { grid-template-columns: repeat(2, 1fr); }
 }
