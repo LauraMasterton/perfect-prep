@@ -116,7 +116,8 @@ main {
 
 }
 
-#hero-text h2,h3 {
+#hero-text h2,
+h3 {
     background-color: #ffffff;
     margin-left: 20px;
     margin-right: 20px;
@@ -127,6 +128,34 @@ main {
 
 
 /* Footer */
-footer {
-    background-color: burlywood;
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: #95aab6;
+}
+
+.footer-container a {
+    color: #f5f6f7;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 105%;
+}
+
+
+.footer-container ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.copyright {
+    padding: 2px 0;
+    text-align: center;
+    color: #7c878e;
+    background-color: #c4ddf6;
 }
