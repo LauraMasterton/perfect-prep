@@ -24,13 +24,15 @@ body {
 header {
     background-color: #d67cc9;
     padding: 10px 20px 0 20px;
-    position: fixed;
+    position: sticky;
     z-index: 99;
     width: 100%;
     box-shadow: rgba(99, 9, 101, 0.15) 0px 4px 4px 0px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    top: 0;
+    left: 0;
 
 }
 
@@ -97,7 +99,7 @@ nav {
 main {
     background-color: #f8f8f8;
     flex: 1 0 auto;
-    margin-top: 47px;
+  
 
 
 }
