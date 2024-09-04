@@ -82,6 +82,18 @@ nav {
     text-align: center;
 }
 
+
+    /* visited link */
+a:visited {
+    color: purple;
+  }
+  
+  
+  /* selected link */
+  a:active {
+    font-size: 90%;
+  } 
+
 #toggle:checked~nav {
     display: block;
 }
