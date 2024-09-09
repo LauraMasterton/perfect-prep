@@ -63,7 +63,9 @@ h2,h3,h4 {
 
 p {
     font-size: 1rem;
+    margin: 20px;
 }
+
 #nav-links {
     list-style-type: none;
 
@@ -119,10 +121,8 @@ a:active {
 main {
     background-color: #c9d7ec;
     flex: 1 0 auto;
-
-
-
 }
+
 
 /* Hero section */
 
