@@ -236,6 +236,10 @@ h3 {
     margin: 0.5rem;
 }
 
+.fa-utensils {
+    margin-right: 10px;
+}
+
 .form {
     background-color: #eda7e6;
     width: 90vw;
@@ -245,7 +249,7 @@ h3 {
 
 }
 
-input [type="text"] [type="email"]{
+input [type="text"] [type="email"] {
     width: 50vw;
 }
 
@@ -260,7 +264,7 @@ input[type="submit"] {
     margin: 10px
 }
 
-label{
+label {
     margin-bottom: 0.5rem;
 }
 
