@@ -252,6 +252,7 @@ textarea {
 input[type="submit"] {
     border-radius: 10px;
     padding: 6px 12px;
+    margin: 10px
 }
 
 /* Media query for tablets (768px and above) */
