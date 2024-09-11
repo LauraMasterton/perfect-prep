@@ -240,6 +240,11 @@ h3 {
 
 }
 
+input {
+    width: 40vw;
+
+}
+
 
 /* Media query for tablets (768px and above) */
 
