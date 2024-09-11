@@ -240,13 +240,13 @@ h3 {
 
 }
 
-input {
-    width: 40vw;
+input [type="text"] [type="email"]{
+    width: 50vw;
 }
 
 textarea {
     height: 100px;
-    width: 40vw;
+    width: 50vw;
 }
 
 input[type="submit"] {
