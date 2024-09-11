@@ -150,6 +150,20 @@ h3 {
     font-size: 2.5rem;
 }
 
+/*About us section */
+
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    background-color: #c9d7ec;
+}
+
+.card-about {
+    margin: 0 30px;
+}
+
 /* Footer */
 
 .footer-container {
@@ -182,13 +196,7 @@ h3 {
     background-color: #eda7e6;
 }
 
-.container-grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1rem;
-    background-color: #c9d7ec;
-}
+
 
 /*Recipe page*/
 
