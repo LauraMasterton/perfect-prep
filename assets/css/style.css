@@ -242,9 +242,12 @@ h3 {
 
 input {
     width: 40vw;
-
 }
 
+textarea {
+    height: 100px;
+    width: 40vw;
+}
 
 /* Media query for tablets (768px and above) */
 
