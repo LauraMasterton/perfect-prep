@@ -1,5 +1,9 @@
 # Perfect Prep Website
 
+'Perfect Prep' is designed to be a responsive website allowing visitors to view on a range of devices including mobile, tablet and desktop/laptop.
+
+
+
 ## Contents
 
 * [User Experience](#user-experience-ux)
