@@ -35,4 +35,10 @@
 * I want to be able to contact the website owner with questions that have not already been addressed. 
 * I want to connect with Perfect Prep through social media.
 * I want to  find their social media handles easily. 
+#### Frequent Visitor Goals
+* I want to view recipes I have viewed previously. 
+* I want to submit my own recipes with ease.
+* I want to contact the owner to provide my own ideas about Perfect Prep.
+* I want to submit my own photographs to accompany a recipe. 
+
 
