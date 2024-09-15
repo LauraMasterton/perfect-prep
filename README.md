@@ -30,3 +30,9 @@
 #### First Time Visitor Goals 
 * I want to find out what perfect prep is.
 * I want to navigate the website easily on my device. 
+#### Returning Visitor Goals
+* I want to find the latest recipes. 
+* I want to be able to contact the website owner with questions that have not already been addressed. 
+* I want to connect with Perfect Prep through social media.
+* I want to  find their social media handles easily. 
+
