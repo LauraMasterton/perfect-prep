@@ -40,5 +40,8 @@
 * I want to submit my own recipes with ease.
 * I want to contact the owner to provide my own ideas about Perfect Prep.
 * I want to submit my own photographs to accompany a recipe. 
-
-
+---
+## Design
+### Colour Scheme
+![Perfect Prep Website Colour Palette](docs/coolorscolourpalette.png)
+The website uses a colour palette created using the [Coolors](https://coolors.co/) website.
