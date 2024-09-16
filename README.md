@@ -54,3 +54,10 @@ The website uses a colour palette created using the [Coolors](https://coolors.co
 [Montserrat-Alternates](https://fonts.google.com/specimen/Montserrat+Alternates) was used for the headings and subtitles. It is a sans serif font and considered a sister font to the 'normal' Montsterrat yet the 'Alternate' family has many unique letterforms. This means that the font is familiar but the unique style adds a sense of fun and creaativity.
 
 [Roboto](https://fonts.google.com/specimen/Roboto) is the font used in the body text of the website. 
+
+### Features
+The website consists of three pages. 
+1. The landing page/[home] page.
+2. A 'Recipes' page.
+3. A contact us page.
+
