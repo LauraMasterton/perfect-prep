@@ -102,6 +102,9 @@ The user is alerted to the links they are hovering over by a change to the colou
  - [Favicon](https://favicon.io/): To create the favicon image in the browser tab.
  - Google Dev Tools: used to debug, troubleshoot and test code. 
  [Tiny Png](https://tinypng.com/): Used to compress images for a faster loading time.
+ [Am I Responsive?](https://ui.dev/amiresponsive): to show the website on a range of devices. 
+ [Shields](https://shields.io): to add 'badges' for the README file.
+ --- 
 
 
 
