@@ -80,5 +80,11 @@ The user is alerted to the links they are hovering over by a change to the colou
 - There is a simple form with fields for the users: first name, last name, e-mail address and a text box for the user to write their message. Each field has labels for the field and accompanying placeholder text. Every field must be completed before a user can press submit, if any field is missed or not filled in the correct format a tooltip will alert the user to correct the error and highlight the field(s) to be ammended before pressing submit. When the form has been filled and submitted correctly a confirmation page with the values entered will be shown in a new window. (I chose to use the Code Institutes formdump link for the endpoint as opposed to creating a new page so users can see that their data has been submitted.  )
 
 * **Future implementations**
+ **Javascript**: 
+ * The use of javascript to improve the hamburger menu.
+ * Use Javascript to 'switch' between different vegan, vegetarian and meat-based options on the recipes.  
+ * **Additional pages**
+ - A community page where the site owner can request members to share their experience since using Perfect Prep and the ways it has made their life easier. 
+  
 
 
