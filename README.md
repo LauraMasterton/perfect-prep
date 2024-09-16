@@ -105,6 +105,16 @@ The user is alerted to the links they are hovering over by a change to the colou
  [Am I Responsive?](https://ui.dev/amiresponsive): to show the website on a range of devices. 
  [Shields](https://shields.io): to add 'badges' for the README file.
  --- 
+ ## Deployment and Local Development
+ ### Deployment
+ Github Pages was used to deploy the website. The steps to deploy this project are as follows:
+
+ 1. Log in (or sign up) to Github.
+ 2. Find the repository for this project, titled "Perfect-Prep".
+ 3. Click on 'settings' in the menu.
+ 4. Click on 'pages' in the navigation bar on the left.
+ 5. Under the section named 'source' select the 'main' branch from the dropdown menu and 'root' as the folder in the dropdown menu. 
+ 6. Click save. The github page is now live and deployed with the URL provided on screen.
 
 
 
