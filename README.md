@@ -75,5 +75,8 @@ The user is alerted to the links they are hovering over by a change to the colou
 2. ** Recipes**
 - The recipes page has a clear heading "Recipes" with a short introduction to what the page includes a selection of the site owners favourite meal prep recipes.
 - The recipes show the image of the finished meal first, followed by teh name of the recipe and an ordered list of instructions.  Each image is the same size to create a sense of uniformity and on a mobile device the recipes are shown one under another in a single vertical column. On larger devices the responsive images become larger and two columns are created. Currently there is an odd number of recipes and the site is designed to place the remaining recipe in the centre underneath both columns for aesthic purposes. 
+3. **Contact**
+- A short list of reasons why a user my want to contact the site owner to encourage interaction. 
+- There is a simple form with fields for the users: first name, last name, e-mail address and a text box for the user to write their message. Each field has labels for the field and accompanying placeholder text. Every field must be completed before a user can press submit, if any field is missed or not filled in the correct format a tooltip will alert the user to correct the error and highlight the field(s) to be ammended before pressing submit. When the form has been filled and submitted correctly a confirmation page with the values entered will be shown in a new window. (I chose to use the Code Institutes formdump link for the endpoint as opposed to creating a new page so users can see that their data has been submitted.  )
 
 
