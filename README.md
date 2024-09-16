@@ -61,11 +61,12 @@ The website consists of three pages.
 2. A 'Recipes' page.
 3. A contact us page.
 
-*All pages on the website have the following features:
+* All pages on the website have the following features:
 * Responsive navigation bar;
 On a mobile device (screen sizes of) the menu is a 'hamburger' menu which upon clicking shows a dropdown menu showing "Home", "Recipes" and "Contact".  This was implemented to give a minimalist look and to prevent overcrowding if the site owner decides to add more links in future.  The page the user selects will change to a font weight of 800 to indicate where they are on all screen sizes.
 On screen sizes of - the three links are in the same order from light to right placed horizontally. This was to utilise the available space in the header as the logo is a text based only. However, if more links are to be added in future there is space and the code is available for the smaller screen to use a 'hamburder' menu if this becomes overcrowded in future.  
 The user is alerted to the links they are hovering over by a change to the colour text on larger screen sizes.
 
 * A footer which contains social media links for Facebook, 'X' (formerly twitter') and Instagram. Recognisable socia media icons were used in place of text as this is what users expect. 
+
 
