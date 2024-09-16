@@ -69,6 +69,8 @@ The user is alerted to the links they are hovering over by a change to the colou
 
 * A footer which contains social media links for Facebook, 'X' (formerly twitter') and Instagram. Recognisable socia media icons were used in place of text as this is what users expect. 
 
-1. 
+1. **Home**
+- The home page is split into two distinct sections. The first section is a hero image with a heading which directly states what the website is about - "Meal Prep Recipes" and a subsequent tagline "Quick, Healthy and Tasty". This ties in with the minimalist aesthetic of the website. The heading font sets the tone for additional headings and subheadings throughout the website for continuity. 
+- The second section is an "about us" section with a grid like structure to address what users queries may be when first visiting the site.  There are currently 6 blocks that are arranged vertically on mobile screens and expand into two columns with 3 blocks each side on larger screens. 
 
 
