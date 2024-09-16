@@ -85,6 +85,10 @@ The user is alerted to the links they are hovering over by a change to the colou
  * Use Javascript to 'switch' between different vegan, vegetarian and meat-based options on the recipes.  
  * **Additional pages**
  - A community page where the site owner can request members to share their experience since using Perfect Prep and the ways it has made their life easier. 
-  
+
+ ### Accessibility 
+ The website has approached accessibility by
+ - Using semantic html
+
 
 
