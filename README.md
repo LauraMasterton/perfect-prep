@@ -90,5 +90,18 @@ The user is alerted to the links they are hovering over by a change to the colou
  The website has approached accessibility by
  - Using semantic html
 
+ ### Languages
+ HTML and CSS were the languages used throughout to create the website.
+ ### Frameworks, Libaries and Programs 
+ - [Balsamiq](https://balsamiq.com/): used to create wireframes.
+ - Git: used for version control.
+ - [Github](https://github.com/): used to save and store the files necessary for the website.
+ - [Gitpod](https://gitpod.io/): used to write the code.
+ - [Fontjoy](https://fontjoy.com/): A font database generator to pair complimentary fonts. 
+ - [Google Fonts](https://fonts.google.com/): An open source library used to import the fonts desired for the website.
+ - [Favicon](https://favicon.io/): To create the favicon image in the browser tab.
+ - Google Dev Tools: used to debug, troubleshoot and test code. 
+ [Tiny Png](https://tinypng.com/): Used to compress images for a faster loading time.
+
 
 
