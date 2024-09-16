@@ -116,5 +116,12 @@ The user is alerted to the links they are hovering over by a change to the colou
  5. Under the section named 'source' select the 'main' branch from the dropdown menu and 'root' as the folder in the dropdown menu. 
  6. Click save. The github page is now live and deployed with the URL provided on screen.
 
+### Local Development
+#### How to Fork
 
+To fork the "Perfect-Prep" repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository Lauramasterton/perfect-prep.
+3. Click the fork button located in the top right corner. 
 
