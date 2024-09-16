@@ -133,9 +133,9 @@ main {
     padding-top: 10px;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 80vh;
     width: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero.webp") no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/plant-based-juices-16.9-2048x1152.jpg") no-repeat center center/cover;
 }
 
 #hero-text {
