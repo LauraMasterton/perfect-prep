@@ -72,5 +72,8 @@ The user is alerted to the links they are hovering over by a change to the colou
 1. **Home**
 - The home page is split into two distinct sections. The first section is a hero image with a heading which directly states what the website is about - "Meal Prep Recipes" and a subsequent tagline "Quick, Healthy and Tasty". This ties in with the minimalist aesthetic of the website. The heading font sets the tone for additional headings and subheadings throughout the website for continuity. 
 - The second section is an "about us" section with a grid like structure to address what users queries may be when first visiting the site.  There are currently 6 blocks that are arranged vertically on mobile screens and expand into two columns with 3 blocks each side on larger screens. 
+2. ** Recipes**
+- The recipes page has a clear heading "Recipes" with a short introduction to what the page includes a selection of the site owners favourite meal prep recipes.
+- The recipes show the image of the finished meal first, followed by teh name of the recipe and an ordered list of instructions.  Each image is the same size to create a sense of uniformity and on a mobile device the recipes are shown one under another in a single vertical column. On larger devices the responsive images become larger and two columns are created. Currently there is an odd number of recipes and the site is designed to place the remaining recipe in the centre underneath both columns for aesthic purposes. 
 
 
