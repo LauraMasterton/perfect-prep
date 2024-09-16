@@ -57,9 +57,9 @@ The website uses a colour palette created using the [Coolors](https://coolors.co
 
 ### Features
 The website consists of three pages. 
-1. The landing page/[home] page.
-2. A 'Recipes' page.
-3. A contact us page.
+1. Home.
+2. Recipes.
+3. Contact.
 
 * All pages on the website have the following features:
 * Responsive navigation bar;
@@ -68,5 +68,7 @@ On screen sizes of - the three links are in the same order from light to right p
 The user is alerted to the links they are hovering over by a change to the colour text on larger screen sizes.
 
 * A footer which contains social media links for Facebook, 'X' (formerly twitter') and Instagram. Recognisable socia media icons were used in place of text as this is what users expect. 
+
+1. 
 
 
