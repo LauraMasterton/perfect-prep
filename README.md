@@ -131,3 +131,7 @@ To clone the "Perfect-Prep" repository, follow these steps:
 
 1. Log in (or sign up) to GitHub.
 2. Go to the repository [lauramasterton/perfect-prep](https://github.com/LauraMasterton/perfect-prep)
+3. Click on the code button and select if you would like to clone the repository with HTTPS, SSH or GitHub CLI and then copy the link provided. 
+4. Open the terminal in your code editor. Change the working directory to the desired location for the cloned directory. 
+5. In the terminal type 'git clone' and paste the link you copied in step 3 and press enter. 
+---
