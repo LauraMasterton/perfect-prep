@@ -145,3 +145,22 @@ The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and
 *[Recipes page HTML](docs/testing/w3c)
 *[Contact page HTML](docs/testing/w3c)
 *[style.css CSS](docs/testing/w3c)
+
+---
+## Credits
+#### Content
+Content of the website was written by Laura Masterton. The recipes were inspired from [Planted in the Kitchen](https://plantedinthekitchen.com/)
+### Media
+#### 
+*Hero Image
+The image was taken from [Superfood and Berries](https://superfoodandberries.com/pages/72-timmars-detoxkur/)
+* Recipe images
+All images were taken from [Planted in the Kitchen](https://plantedinthekitchen.com/)
+- [Broccoli Salad](https://plantedinthekitchen.com/broccoli-crunch-salad/)
+- [Burrito Bowl](https://plantedinthekitchen.com/plant-based-taco-bowls/)
+- [Butternut Squash Soup](https://plantedinthekitchen.com/butternut-squash-apple-soup/)
+- [Mango Breakfast Smoothie](https://plantedinthekitchen.com/mango-smoothie/)
+- [Pasta Marinara Sauce](https://plantedinthekitchen.com/san-marzano-tomato-sauce/)
+- [Raspberry Overnight Oats](https://plantedinthekitchen.com/raspberry-oatmeal/)
+- [Spinach Soup](https://plantedinthekitchen.com/spinach-white-bean-soup/)
+- [Veggie Summer Rolls](https://plantedinthekitchen.com/summer-rolls/)
