@@ -148,6 +148,7 @@ The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and
 
 ---
 ## Credits
+* I used and modified the Code Institutes code for the hamburger menu in the course contents walkthrough project.
 #### Content
 Content of the website was written by Laura Masterton. The recipes were inspired from [Planted in the Kitchen](https://plantedinthekitchen.com/)
 ### Media
