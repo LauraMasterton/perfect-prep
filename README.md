@@ -164,3 +164,8 @@ All images were taken from [Planted in the Kitchen](https://plantedinthekitchen.
 - [Raspberry Overnight Oats](https://plantedinthekitchen.com/raspberry-oatmeal/)
 - [Spinach Soup](https://plantedinthekitchen.com/spinach-white-bean-soup/)
 - [Veggie Summer Rolls](https://plantedinthekitchen.com/summer-rolls/)
+
+###Acknowledgements
+I would like to thank:
+* My mentor [Rory Sheridan](https://github.com/Ri-Dearg) for his invaluable guidance.
+* The Code Institute student support team. 
