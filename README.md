@@ -122,7 +122,7 @@ The user is alerted to the links they are hovering over by a change to the colou
 To fork the "Perfect-Prep" repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository Lauramasterton/perfect-prep.
+2. Go to the repository [lauramasterton/perfect-prep](https://github.com/LauraMasterton/perfect-prep).
 3. Click the fork button located in the top right corner. 
 
 #### How to Clone
