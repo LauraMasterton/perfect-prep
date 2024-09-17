@@ -125,3 +125,9 @@ To fork the "Perfect-Prep" repository:
 2. Go to the repository Lauramasterton/perfect-prep.
 3. Click the fork button located in the top right corner. 
 
+#### How to Clone
+
+To clone the "Perfect-Prep" repository, follow these steps:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository [lauramasterton/perfect-prep](https://github.com/LauraMasterton/perfect-prep)
