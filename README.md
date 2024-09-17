@@ -135,3 +135,13 @@ To clone the "Perfect-Prep" repository, follow these steps:
 4. Open the terminal in your code editor. Change the working directory to the desired location for the cloned directory. 
 5. In the terminal type 'git clone' and paste the link you copied in step 3 and press enter. 
 ---
+## Testing
+
+### W3C Validator
+
+The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and this tool was also used to [validate the CSS](https://jigsaw.w3.org/css-validator/).
+
+*[Index page HTML](docs/testing/w3c)
+*[Recipes page HTML](docs/testing/w3c)
+*[Contact page HTML](docs/testing/w3c)
+*[style.css CSS](docs/testing/w3c)
