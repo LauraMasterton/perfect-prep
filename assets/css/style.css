@@ -212,7 +212,9 @@ p {
 }
 
 .card {
-    background-color: aquamarine;
+    background-color: white;
+    /*Box shadow code used by CSS can, example #21 - see README*/ 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin: 20px;
 }
 
@@ -313,7 +315,9 @@ label {
 
     /*Recipe page*/
     .card {
-        background-color: aquamarine;
+        background-color: white;
+        /*Box shadow code used by CSS can, example #21 - see README*/ 
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         max-width: 40vw;
         margin: 20px;
     }
