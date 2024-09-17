@@ -18,8 +18,9 @@ body {
     flex-direction: column;
     color: #222831;
     font-family: Roboto, 'sans-serif';
+    font-size: 1rem;
+    font-weight: 500;
 }
-
 
 /* Header */
 
@@ -199,6 +200,12 @@ h3 {
 
 
 /*Recipe page*/
+
+.center,
+p {
+    text-align: center;
+    t
+}
 
 .recipe-card-container {
     display: flex;
