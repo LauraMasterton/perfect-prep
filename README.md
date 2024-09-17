@@ -21,12 +21,12 @@
 ## User Experience (UX)
 ### User Stories
 #### Client Goals
-*To have a mobile-first responsive website.
-*To view the website on a range of devices.
-*To explain what Perfect Prep is.
-*To connect users to Perfect Prep's social media accounts. 
-*Allow visitors - members and potential members to view recipes.
-*To allow users to contact Perfect Prep through a contact form for the purpose of asking questions or submitting recipe ideas. 
+* To have a mobile-first responsive website.
+* To view the website on a range of devices.
+* To explain what Perfect Prep is.
+* To connect users to Perfect Prep's social media accounts. 
+* Allow visitors - members and potential members to view recipes.
+* To allow users to contact Perfect Prep through a contact form for the purpose of asking questions or submitting recipe ideas. 
 #### First Time Visitor Goals 
 * I want to find out what perfect prep is.
 * I want to navigate the website easily on my device. 
@@ -141,22 +141,21 @@ To clone the "Perfect-Prep" repository, follow these steps:
 
 The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and this tool was also used to [validate the CSS](https://jigsaw.w3.org/css-validator/).
 
-*[Index page HTML](docs/testing/w3c)
-*[Recipes page HTML](docs/testing/w3c)
-*[Contact page HTML](docs/testing/w3c)
-*[style.css CSS](docs/testing/w3c)
+* [Index page HTML](docs/testing/w3c/indexvalidator.JPG)
+* [Recipes page HTML](docs/testing/w3c/recipesvalidator.png)
+* [Contact page HTML](docs/testing/w3c/contactvalidator.png)
+* [style.css CSS](docs/testing/w3c)
 
 ---
 ## Credits
 * I used and modified the Code Institutes code for the hamburger menu in the course contents walkthrough project.
+* I used [Get CSS](https://getcssscan.com/css-box-shadow-examples) example #21 for the box shadow code on the recipe cards.
 #### Content
 Content of the website was written by Laura Masterton. The recipes were inspired from [Planted in the Kitchen](https://plantedinthekitchen.com/)
 ### Media
 #### 
-*Hero Image
-The image was taken from [Superfood and Berries](https://superfoodandberries.com/pages/72-timmars-detoxkur/)
-* Recipe images
-All images were taken from [Planted in the Kitchen](https://plantedinthekitchen.com/)
+* Hero Image: the image was taken from [Superfood and Berries](https://superfoodandberries.com/pages/72-timmars-detoxkur/)
+* Recipe images: all images were taken from [Planted in the Kitchen](https://plantedinthekitchen.com/)
 - [Broccoli Salad](https://plantedinthekitchen.com/broccoli-crunch-salad/)
 - [Burrito Bowl](https://plantedinthekitchen.com/plant-based-taco-bowls/)
 - [Butternut Squash Soup](https://plantedinthekitchen.com/butternut-squash-apple-soup/)
@@ -166,7 +165,7 @@ All images were taken from [Planted in the Kitchen](https://plantedinthekitchen.
 - [Spinach Soup](https://plantedinthekitchen.com/spinach-white-bean-soup/)
 - [Veggie Summer Rolls](https://plantedinthekitchen.com/summer-rolls/)
 
-###Acknowledgements
+### Acknowledgements
 I would like to thank:
 * My mentor [Rory Sheridan](https://github.com/Ri-Dearg) for his invaluable guidance.
 * The Code Institute student support team. 
