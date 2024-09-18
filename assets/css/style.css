@@ -61,7 +61,7 @@ h2 h3 {
 #about-title,
 #recipes-title, #contact-title {
     font-family: "archivo black", sans-serif;
-    color: #f65282;
+    color: black;
 }
 
 
@@ -70,7 +70,7 @@ h3, h4 {
     font-size: 1rem;
     text-align: center;
     padding: 1.25rem;
-    color: #f78154;
+    color: #885df1;
 }
 
 p {
@@ -168,13 +168,21 @@ h3 {
     margin: 0 auto;
     display: grid;
     gap: 1rem;
-    background-color: #c9d7ec;
 }
 
 .card-about {
     margin: 0 30px;
+    background-color: #f5f1fe;
+    border-radius: 25px;
+
 }
 
+.card-about-second {
+    margin: 0 30px;
+    background-color: #f0bbcb;
+    border-radius: 25px;
+    border: 30px;
+}
 /* Footer */
 
 .footer-container {
@@ -182,8 +190,9 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 20px 16px;
-    background-color: #f5f1fe;
+    background-color: whitesmoke;
     height: 46px;
+    margin-top: 25px;
 }
 
 .footer-container a {
@@ -200,11 +209,11 @@ h3 {
     list-style-type: none;
 }
 
-.copyright {
+/*.copyright {
     padding: 4px 0;
     text-align: center;
     color: #000000;
-    background-color: #f5f1fe;
+    background-color: whitesmoke;*/
 }
 
 /*Recipe page*/
