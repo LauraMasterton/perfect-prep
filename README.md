@@ -223,7 +223,6 @@ The performance issue is highlighted again here and in future updates to the web
 #### Content
 Content of the website was written by Laura Masterton. The recipes were inspired from [Planted in the Kitchen](https://plantedinthekitchen.com/)
 ### Media
-#### 
 * Hero Image: the image was taken from [Superfood and Berries](https://superfoodandberries.com/pages/72-timmars-detoxkur/)
 * Recipe images: all images were taken from [Planted in the Kitchen](https://plantedinthekitchen.com/)
 - [Broccoli Salad](https://plantedinthekitchen.com/broccoli-crunch-salad/)
