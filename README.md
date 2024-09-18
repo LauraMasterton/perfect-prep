@@ -78,7 +78,6 @@ The website consists of three pages.
 
 * All pages on the website have the following features:
 * Responsive navigation bar;
-![]
 On a mobile device the menu is a 'hamburger' menu which upon clicking shows a dropdown menu showing "Home", "Recipes" and "Contact".  This was implemented to give a minimalist look and to prevent overcrowding if the site owner decides to add more links in future.  The page the user selects will change to a font weight of 800 to indicate where they are on all screen sizes.
 
 On larger screen sizes the three links are in the same order from light to right placed horizontally. This was to utilise the available space in the header as the logo is a text based only.
@@ -105,13 +104,16 @@ There are currently 6 blocks that are arranged vertically on mobile screens and 
  Each image is the same size to create a sense of uniformity and on a mobile device the recipes are shown one under another in a single vertical column. On larger devices the responsive images become larger and two columns are created. Currently there is an odd number of recipes and the site is designed to place the remaining recipe in the centre underneath both columns for aesthic purposes. 
 3. **Contact**
 - A short list of reasons why a user my want to contact the site owner to encourage interaction. 
-- There is a simple form with fields for the users: first name, last name, e-mail address and a text box for the user to write their message. Each field has labels for the field and accompanying placeholder text. Every field must be completed before a user can press submit, if any field is missed or not filled in the correct format a tooltip will alert the user to correct the error and highlight the field(s) to be ammended before pressing submit. When the form has been filled and submitted correctly a confirmation page with the values entered will be shown in a new window. (I chose to use the Code Institutes formdump link for the endpoint as opposed to creating a new page so users can see that their data has been submitted.  )
+- There is a simple form with fields for the users: first name, last name, e-mail address and a text box for the user to write their message. Each field has labels for the field and accompanying placeholder text. Every field must be completed before a user can press submit, if any field is missed or not filled in the correct format a tooltip will alert the user to correct the error and highlight the field(s) to be ammended before pressing submit. When the form has been filled and submitted correctly a confirmation page with the values entered will be shown in a new window. (I chose to use the Code Institutes formdump link for the endpoint as opposed to creating a new page so users can see that their data has been submitted. )
+![Contact Form](/docs/contactreadme.PNG)
 
 * **Future implementations**
+
  **Javascript**: 
  * The use of javascript to improve the hamburger menu.
  * Use Javascript to 'switch' between different vegan, vegetarian and meat-based options on the recipes.  
- * **Additional pages**
+
+  **Additional pages**
  - A community page where the site owner can request members to share their experience since using Perfect Prep and the ways it has made their life easier. 
 
  ### Accessibility 
@@ -178,7 +180,7 @@ My code was also not at 100% for accessibility because I did not automatically p
 
 The form on the contact page had a messsage box that the user could resize. I found a way to style this and rectified this issue.
 
--[Known Bugs](#known-bugs)
+## known bugs
 none
 
 
@@ -200,11 +202,14 @@ Using chrome developer tools for the home page and the recipes page it showed I 
 
 Performance was the only metric that had issues and requires improvement. However it is not causing issues due to the small scale project. The performance metric varied considerably within a ten minute window. The suggestion was to apply a specific width and height for the image. My internet speed tested low at this time and this could play a factor as the difference between the mobile home performance and desktop performance is significant despite there only being one image and the script for font awesome already was placed at the end of the html.
 ![Mobile Home Page](/docs/testing/lighthouse/mobhome.PNG)
+
 ![Desktop Home Page](/docs/testing/lighthouse/deskhome.PNG)
+
 ![Mobile Contact Page](/docs/testing/lighthouse/mobcontact.PNG)
+
 ![Desktop Contact Page](/docs/testing/lighthouse/deskcontact.PNG)
 
-The performance issue is 
+The performance issue is highlighted again here and in future updates to the website it will become necessary to edit as load times will be noticeable. 
 ![Mobile Recipes Page](/docs/testing/lighthouse/mobrecipe.PNG)
 ![Desktop Recipes Page](/docs/testing/lighthouse/deskrecipe.PNG)
 
