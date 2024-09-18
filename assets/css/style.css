@@ -335,6 +335,19 @@ label {
 
 }
 
+.field {
+    color: #f0bbcb;
+    width: 60%;
+    background-color:white;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border: solid;
+    border-width: 0px 0px 2px 0px;
+  }
+  textarea {
+    resize: none;
+  }
 /* Media query for tablets (768px and above) */
 
 @media screen and (min-width: 768px) {
