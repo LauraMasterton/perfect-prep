@@ -48,17 +48,29 @@ header a {
 h1 {
     font-family: roboto, "sans-serif";
     font-weight: 800;
-    color: #f78154;
+    color: #000000;
     font-size: 2em;
 }
+h2 h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 200px;
+    font-size: 2.5rem;
+    color: white;
+}
+#about-title,
+#recipes-title, #contact-title {
+    font-family: "archivo black", sans-serif;
+    color: #f65282;
+}
 
-h2,
-h3,
-h4 {
+
+h3, h4 {
     font-family: "Montserrat alternates", sans-serif;
     font-size: 1rem;
     text-align: center;
     padding: 1.25rem;
+    color: #f78154;
 }
 
 p {
@@ -116,7 +128,7 @@ a:active {
 /* Main */
 
 main {
-    background-color: #c9d7ec;
+    background-color: white;
     flex: 1 0 auto;
 }
 
@@ -170,7 +182,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 20px 16px;
-    background-color:#f5f1fe;
+    background-color: #f5f1fe;
     height: 46px;
 }
 
@@ -192,7 +204,7 @@ h3 {
     padding: 4px 0;
     text-align: center;
     color: #000000;
-    background-color:#f5f1fe;
+    background-color: #f5f1fe;
 }
 
 /*Recipe page*/
@@ -213,7 +225,7 @@ p {
 
 .card {
     background-color: white;
-    /*Box shadow code used by CSS can, example #21 - see README*/ 
+    /*Box shadow code used by CSS can, example #21 - see README*/
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin: 20px;
 }
@@ -286,7 +298,7 @@ label {
 @media screen and (min-width: 768px) {
 
     /* Header */
-    /* Code modified
+    /* Code modified from code institute walkthrough project - see README */
 
     nav {
         display: block;
@@ -316,7 +328,7 @@ label {
     /*Recipe page*/
     .card {
         background-color: white;
-        /*Box shadow code used by CSS can, example #21 - see README*/ 
+        /*Box shadow code used by CSS can, example #21 - see README*/
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         max-width: 40vw;
         margin: 20px;
