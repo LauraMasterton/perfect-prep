@@ -50,13 +50,15 @@ The website uses a colour palette created using the [Coolors](https://coolors.co
 ### Typography
 [Google Fonts](https://fonts.google.com/) was used to embed the code for the font families selected.
 [Fontjoy](https://fontjoy.com/) was the website used to select complimentary font families. 
-
 [Roboto](https://fonts.google.com/specimen/Roboto) was used for the logo with the font weight of 800. It is a sans-serif font and is easy to read on all device sizes. It is simple and clear but it is not formal. This sets the tone for the website. As it is an online community with a focus around a specific topic.
-
 [Montserrat-Alternates](https://fonts.google.com/specimen/Montserrat+Alternates) was used for the headings and subtitles. It is a sans serif font and considered a sister font to the 'normal' Montsterrat yet the 'Alternate' family has many unique letterforms. This means that the font is familiar but the unique style adds a sense of fun and creaativity.
-
 [Archivo Black](https://fonts.google.com/specimen/Archivo+Black) is the font used in the body text of the website. 
 
+### Wireframes
+Wireframes were created for mobile and desktop. The project was designed with a mobile first approach and to have a fluid responsive website that could have similar design patterns for tablet and desktop without having to redesign for a large number of devices. The code was imagined to be as responsive as possible and so the smallest and largest wireframes were 'sketched'. If the project were to be expanded in the future and a more complex design was required I would account for this and create a wireframe for a tablet based device.
+[Home Page Wireframe](docs/wireframes/home.PNG)
+[Recipes Page Wireframe](docs/wireframes/recipes.PNG)
+[Contact Page Wireframe](docs/wireframes/contact.PNG)
 ### Features
 The website consists of three pages. 
 1. Home.
