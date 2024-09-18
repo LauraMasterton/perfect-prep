@@ -277,7 +277,7 @@ label {
 
 .contact-items {
     background-color: #f0bbcb;
-    width: 80%;
+    width: 70vw;
     margin: 10px auto;
     border-radius: 10px;
     border: 1rem;
@@ -287,30 +287,31 @@ label {
 .contact-items li {
     list-style-type: none;
     margin: 0.5rem;
+    text-align: center;
 }
 
-.fa-utensils {
-    margin-right: 10px;
-    color: #885df1;
-}
 
 .form {
     background-color: #f5f1fe;
-    width: 90vw;
+    width: 70vw;
     margin: 20px auto;
     text-align: center;
     border-radius: 10px;
     line-height: 1.5rem;
+    font-weight: 500;
 
 }
 
-input [type="text"] [type="email"] {
-    width: 50vw;
+[type="email"] {
+    width: 40vw;
+}
+[type="text"] {
+    width: 40vw;
 }
 
 textarea {
     height: 100px;
-    width: 50vw;
+    width: 40vw;
 }
 
 input[type="submit"] {
@@ -326,6 +327,9 @@ label {
     margin-bottom: 0.5rem;
 }
 
+#first-name {
+    font-weight: 500;
+}
 #button:hover {
     background-color: #885df1;
 
