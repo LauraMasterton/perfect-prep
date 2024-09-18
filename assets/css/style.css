@@ -87,6 +87,10 @@ p {
     list-style-type: none;
 }
 
+#nav-links a:hover {
+    text-decoration: underline;
+}
+
 #nav-links>li {
     margin-bottom: 1rem;
 }
@@ -113,7 +117,7 @@ a:visited {
 }
 
 /* selected link */
-a:active {
+#nav-links a:active {
     font-size: 90%;
 }
 
@@ -129,6 +133,7 @@ a:active {
     font-size: 1.5rem;
     padding-bottom: 10px;
 }
+
 
 /* Main */
 
@@ -345,6 +350,10 @@ label {
     #nav-links>li {
         padding-left: 1rem;
         font-size: 1.5rem;
+    }
+
+    #nav-links a:hover {
+        text-decoration: underline;
     }
 
     .nav-toggle {
