@@ -189,10 +189,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 16px;
     background-color: whitesmoke;
-    height: 46px;
-    margin-top: 25px;
+    height: 25px;
+    padding-top:15px;
 }
 
 .footer-container a {
@@ -209,11 +208,11 @@ h3 {
     list-style-type: none;
 }
 
-/*.copyright {
+.copyright {
     padding: 4px 0;
     text-align: center;
     color: #000000;
-    background-color: whitesmoke;*/
+    background-color: whitesmoke;
 }
 
 /*Recipe page*/
