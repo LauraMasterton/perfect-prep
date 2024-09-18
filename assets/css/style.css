@@ -51,6 +51,7 @@ h1 {
     color: #000000;
     font-size: 2em;
 }
+
 h2 h3 {
     margin-left: 20px;
     margin-right: 20px;
@@ -58,15 +59,18 @@ h2 h3 {
     font-size: 2.5rem;
     color: white;
 }
+
 #about-title,
-#recipes-title, #contact-title {
+#recipes-title,
+#contact-title {
     font-family: "archivo black", sans-serif;
     color: black;
     text-align: center;
 }
 
 
-h3, h4 {
+h3,
+h4 {
     font-family: "Montserrat alternates", sans-serif;
     font-size: 1rem;
     text-align: center;
@@ -184,6 +188,7 @@ h3 {
     border-radius: 25px;
     border: 30px;
 }
+
 /* Footer */
 
 .footer-container {
@@ -192,7 +197,7 @@ h3 {
     align-items: center;
     background-color: whitesmoke;
     height: 25px;
-    padding-top:15px;
+    padding-top: 15px;
     margin-top: 10px;
 }
 
@@ -258,12 +263,17 @@ p {
 }
 
 /*Contact page*/
+label {
+    padding-top: 5px;
+}
 
 .contact-items {
-    background-color: #eda7e6;
+    background-color: #f0bbcb;
     width: 80%;
-    max-width: 400px;
-    margin: 20px auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1rem;
+    padding: 20px;
 }
 
 .contact-items li {
@@ -273,14 +283,16 @@ p {
 
 .fa-utensils {
     margin-right: 10px;
+    color: #885df1;
 }
 
 .form {
-    background-color: #eda7e6;
+    background-color: #f5f1fe;
     width: 90vw;
     margin: 20px auto;
     text-align: center;
     border-radius: 10px;
+    line-height: 1.5rem;
 
 }
 
@@ -296,11 +308,19 @@ textarea {
 input[type="submit"] {
     border-radius: 10px;
     padding: 6px 12px;
-    margin: 10px
+    margin: 10px;
+    background-color: #f0bbcb;
+    border: none;
+    cursor: pointer;
 }
 
 label {
     margin-bottom: 0.5rem;
+}
+
+#button:hover {
+    background-color: #885df1;
+
 }
 
 /* Media query for tablets (768px and above) */
