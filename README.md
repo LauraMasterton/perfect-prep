@@ -2,7 +2,7 @@
 
 'Perfect Prep' is designed to be a responsive website allowing visitors to view on a range of devices including mobile, tablet and desktop/laptop.
 
-![Perfect Prep shown on different device sizes](docs/responsive.PNG)
+![Perfect Prep shown on different device sizes](docs/responsiveupdate.PNG)
 [View Perfect Prep on Github Pages](https://lauramasterton.github.io/perfect-prep/)
 
 
@@ -176,8 +176,10 @@ As I progressed through the project my initial colour palette did not provide a 
 
 My code was also not at 100% for accessibility because I did not automatically place alt attributes for my images. This will be done at the same time as I write code for images in future expansions of this project.
 
+The form on the contact page had a messsage box that the user could resize. I found a way to style this and rectified this issue.
+
 -[Known Bugs](#known-bugs)
-The form on the contact page has a messsage box that the user can resize. I submitted my code for peer review and the suggestions to rectify this did not work. I could not find an answer to thisparticular issue online.  
+none
 
 
 ### W3C Validator
