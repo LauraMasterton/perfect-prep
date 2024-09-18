@@ -11,14 +11,25 @@
 
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
+  * [Client Goals](#client-goals)
+  * [First Time Visitor Goals](#first-time-visitor-goals)
+  * [Returning Visitor Goals](#returning-visitor-goals)
+  * [Frequent Visitor Goals](#frequent-visitor-goals)
    
     
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 
+* [Features](#features)
+* [Accessibility](#accessibility)
+* [Languages](#languages)
+* [Frameworks, Libaries and Programs ](#frameworks-libaries-and-programs
+)
+* [Deployment and Local Development](#deployment-and-local-development)
+* [Testing](#testing)
+* [Credits](#credits)
 ## User Experience (UX)
 ### User Stories
 #### Client Goals
@@ -67,18 +78,31 @@ The website consists of three pages.
 
 * All pages on the website have the following features:
 * Responsive navigation bar;
+![]
 On a mobile device the menu is a 'hamburger' menu which upon clicking shows a dropdown menu showing "Home", "Recipes" and "Contact".  This was implemented to give a minimalist look and to prevent overcrowding if the site owner decides to add more links in future.  The page the user selects will change to a font weight of 800 to indicate where they are on all screen sizes.
-On larger screen sizes the three links are in the same order from light to right placed horizontally. This was to utilise the available space in the header as the logo is a text based only. However, if more links are to be added in future there is space and the code is available for the smaller screen to use a 'hamburger' menu if this becomes overcrowded in future.  
+
+On larger screen sizes the three links are in the same order from light to right placed horizontally. This was to utilise the available space in the header as the logo is a text based only.
+![Nav Bar](/docs/homenavbar.PNG)
+
+ For mobiles a hamburger menu is used.
+ ![Hamburger Menu](/docs/homehamburger.PNG)
+
 The user is alerted to the links they are hovering over by a change to the colour text on larger screen sizes.
 
 * A footer which contains social media links for Facebook, 'X' (formerly twitter') and Instagram. Recognisable socia media icons were used in place of text as this is what users expect. 
+![Footer](/docs/footer.PNG)
 
 1. **Home**
 - The home page is split into two distinct sections. The first section is a hero image with a heading which directly states what the website is about - "Meal Prep Recipes" and a subsequent tagline "Quick, Healthy and Tasty". This ties in with the minimalist aesthetic of the website. The heading font sets the tone for additional headings and subheadings throughout the website for continuity. 
-- The second section is an "about us" section with a grid like structure to address what users queries may be when first visiting the site.  There are currently 6 blocks that are arranged vertically on mobile screens and expand into two columns with 3 blocks each side on larger screens. 
+[Hero Image](/docs/heroreadme.PNG)
+- The second section is an "about us" section with a grid like structure to address what users queries may be when first visiting the site.
+[About Us](/docs/homereadme.PNG) 
+There are currently 6 blocks that are arranged vertically on mobile screens and expand into two columns with 3 blocks each side on larger screens. 
 2. **Recipes**
 - The recipes page has a clear heading "Recipes" with a short introduction to what the page includes a selection of the site owners favourite meal prep recipes.
-- The recipes show the image of the finished meal first, followed by teh name of the recipe and an ordered list of instructions.  Each image is the same size to create a sense of uniformity and on a mobile device the recipes are shown one under another in a single vertical column. On larger devices the responsive images become larger and two columns are created. Currently there is an odd number of recipes and the site is designed to place the remaining recipe in the centre underneath both columns for aesthic purposes. 
+- The recipes show the image of the finished meal first, followed by the name of the recipe and an ordered list of instructions. 
+![Recipes](/docs/recipesreadme.PNG)
+ Each image is the same size to create a sense of uniformity and on a mobile device the recipes are shown one under another in a single vertical column. On larger devices the responsive images become larger and two columns are created. Currently there is an odd number of recipes and the site is designed to place the remaining recipe in the centre underneath both columns for aesthic purposes. 
 3. **Contact**
 - A short list of reasons why a user my want to contact the site owner to encourage interaction. 
 - There is a simple form with fields for the users: first name, last name, e-mail address and a text box for the user to write their message. Each field has labels for the field and accompanying placeholder text. Every field must be completed before a user can press submit, if any field is missed or not filled in the correct format a tooltip will alert the user to correct the error and highlight the field(s) to be ammended before pressing submit. When the form has been filled and submitted correctly a confirmation page with the values entered will be shown in a new window. (I chose to use the Code Institutes formdump link for the endpoint as opposed to creating a new page so users can see that their data has been submitted.  )
@@ -108,7 +132,6 @@ The user is alerted to the links they are hovering over by a change to the colou
 - Google Dev Tools: used to debug, troubleshoot and test code. 
 - [Tiny Png](https://tinypng.com/): Used to compress images for a faster loading time.
 - [Am I Responsive?](https://ui.dev/amiresponsive): to show the website on a range of devices. 
-- [Shields](https://shields.io): to add 'badges' for the README file.
  --- 
  ## Deployment and Local Development
  ### Deployment
@@ -157,11 +180,6 @@ My code was also not at 100% for accessibility because I did not automatically p
 The form on the contact page has a messsage box that the user can resize. I submitted my code for peer review and the suggestions to rectify this did not work. I could not find an answer to thisparticular issue online.  
 
 
-
-
-
-
-
 ### W3C Validator
 
 The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and this tool was also used to [validate the CSS](https://jigsaw.w3.org/css-validator/).
@@ -169,7 +187,27 @@ The W3C Validator was used to [validate the HTML](https://validator.w3.org/) and
 * [Index page HTML](docs/testing/w3c/indexvalidator.JPG)
 * [Recipes page HTML](docs/testing/w3c/recipesvalidator.png)
 * [Contact page HTML](docs/testing/w3c/contactvalidator.png)
-* [style.css CSS](docs/testing/w3c)
+* [style.css CSS](docs/testing/w3c/cssvalidator.PNG)
+
+The validator for HTML initially showed unordered list tags which were not closed. It also showed when I did not correctly order my heading elements which I may have missed when reorganising my code thus skipping from a h1 to a h3. This has been rectified. 
+
+The validator did not return any errors for CSS.
+
+### Lighthouse Testing
+Using chrome developer tools for the home page and the recipes page it showed I did not achieve 100% accessibility due to not providing alt-attributes for my images which I rectified.
+
+Performance was the only metric that had issues and requires improvement. However it is not causing issues due to the small scale project. The performance metric varied considerably within a ten minute window. The suggestion was to apply a specific width and height for the image. My internet speed tested low at this time and this could play a factor as the difference between the mobile home performance and desktop performance is significant despite there only being one image and the script for font awesome already was placed at the end of the html.
+![Mobile Home Page](/docs/testing/lighthouse/mobhome.PNG)
+![Desktop Home Page](/docs/testing/lighthouse/deskhome.PNG)
+![Mobile Contact Page](/docs/testing/lighthouse/mobcontact.PNG)
+![Desktop Contact Page](/docs/testing/lighthouse/deskcontact.PNG)
+
+The performance issue is 
+![Mobile Recipes Page](/docs/testing/lighthouse/mobrecipe.PNG)
+![Desktop Recipes Page](/docs/testing/lighthouse/deskrecipe.PNG)
+
+
+
 
 ---
 ## Credits
